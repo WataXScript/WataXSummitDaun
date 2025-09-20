@@ -1,4 +1,4 @@
-~~ APA LU LIAT LIAT 😂😂😂
+-- APA LU LIAT LIAT 😂😂😂
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -46,7 +46,7 @@ local stopBtn = newBtn("⏹ Stop",2)
 local function onRespawn(char)
     if not active then return end
     local hrp = char:WaitForChild("HumanoidRootPart")
-    task.wait(0.1) -- delay sebelum TP
+    task.wait(0.1) 
     
     local c = coordsList[currentIndex]
     hrp.CFrame = CFrame.new(c.x, c.y, c.z)
@@ -59,7 +59,7 @@ local function onRespawn(char)
     if currentIndex > #coordsList then
         currentIndex = 1
     end
-    task.wait(respawnDelay) -- delay antar respawn
+    task.wait(respawnDelay) 
 end
 
 
