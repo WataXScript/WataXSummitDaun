@@ -1,4 +1,4 @@
-
+~~ APA LU LIAT LIAT 😂😂😂
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
