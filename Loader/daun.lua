@@ -13,7 +13,7 @@ local coordsList = {
 
 local active = false
 local currentIndex = 1
-local respawnDelay = 10
+local respawnDelay = 2
 local connection 
 
 
@@ -59,7 +59,7 @@ local function onRespawn(char)
     if not active then return end
     task.spawn(function()
         local hrp = char:WaitForChild("HumanoidRootPart")
-        task.wait(0.3) 
+        task.wait(0.1) 
         
         
         local c = coordsList[currentIndex]
