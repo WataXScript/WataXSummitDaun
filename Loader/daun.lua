@@ -13,7 +13,7 @@ local coordsList = {
 
 local active = false
 local currentIndex = 1
-local respawnDelay = 2
+local respawnDelay = 5
 local connection 
 
 
