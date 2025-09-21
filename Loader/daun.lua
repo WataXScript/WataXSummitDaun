@@ -59,7 +59,7 @@ local function onRespawn(char)
     if not active then return end
     task.spawn(function()
         local hrp = char:WaitForChild("HumanoidRootPart")
-        task.wait(0.4) 
+        task.wait(0.3) 
         
         
         local c = coordsList[currentIndex]
